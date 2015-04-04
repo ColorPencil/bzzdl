@@ -1,4 +1,38 @@
 /*******************************************************************************
+<<<<<<< HEAD
+MeyerWeb Reset
+*******************************************************************************/
+
+body {
+    background: url("../images/main_bg.jpg") no-repeat scroll center top #111015;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    height: 600px;
+    min-width: 980px;
+}
+
+.footbar_container {
+    background: none repeat scroll 0 0 #0b0c0d;
+    color: #61686f;
+    font-family: Microsoft Yahei,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    height: 90px;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	left:0;
+}
+.footbar_container a {
+    color: #61686f;
+}
+.footbar_container a:hover {
+    color: #1593c5;
+}
+.footbar_main {
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+=======
 Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
@@ -422,4 +456,5 @@ Small Device Styles
     font-size: 11px;
   }
 
+>>>>>>> 99fb77d38a42b5e6352931ca98d0aac153cf01cc
 }
