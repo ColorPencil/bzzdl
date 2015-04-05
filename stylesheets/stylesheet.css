@@ -123,7 +123,7 @@ a, a:link, a:visited, a:hover, a:active {
     background-position: 0 0;
 }
 .content-left a.downloads {
-	background-image: url("../images/downloads.png");
+	background-image: url("../images/Downloads.png");
 	background-position: 0px 120px;
 	height: 120px;
     left: 10px;
