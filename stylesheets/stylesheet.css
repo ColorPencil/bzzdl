@@ -2,20 +2,26 @@
 <<<<<<< HEAD
 MeyerWeb Reset
 *******************************************************************************/
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
 
 body {
     background: url("../images/main_bg.jpg") no-repeat scroll center top #111015;
     font-family: 微软雅黑;
     font-size: 14px;
-    height: 600px;
     min-width: 980px;
 }
 
 /* 主页面展示区域 */
 .pagewrap {
     margin: -8px auto;
-    position: relative;
     width: 1024px;
+	min-height:100%;
+	position: relative;
 }
 
 /* 页脚 */
@@ -25,8 +31,7 @@ body {
     font-family: Microsoft Yahei,Arial,Helvetica,sans-serif;
     font-size: 14px;
     height: 90px;
-	position:absolute;
-	bottom:0px;
+	margin-top: -84px;
 	width:100%;
 	left:0;
 }
@@ -61,7 +66,7 @@ a, a:link, a:visited, a:hover, a:active {
     left: 0;
     position: absolute;
     top: 25px;
-    width: 400px;
+    width: 300px;
 }
 .header .logos a {
     display: block;
@@ -72,38 +77,42 @@ a, a:link, a:visited, a:hover, a:active {
     width: 300px;
 }
 .header .main-nav {
-    height: 130px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 562px;
+	height: 128px;
+	position: absolute;
+	right: 106px;
+	top: 2px;
+	width: 544px;
 }
 .header .main-nav a {
-    bottom: 0;
+    bottom: 2;
     display: block;
-    height: 130px;
+    height: 128px;
     position: absolute;
-    width: 200px;
 }
 .header .main-nav a:hover, .header .main-nav a.cur {
     background-image: url("../images/nav_cur.jpg");
 }
 .header .main-nav a.hero {
-    background-position: -3px 0;
-    left: 10px;
+	background-position: 0 0;
+	left: 0px;
+	width: 192px;
 }
-.header .main-nav a.items {
-    background-position: -202px -132px;
-    left: 209px;
+.header .main-nav a.game {
+	background-position: -192px 0;
+	left: 192px;
+	width: 192px;
 }
-.header .main-nav a.rules {
-    background-position: -363px -264px;
-    left: 370px;
+.header .main-nav a.supports {
+    background-position: -384px 0px;
+    left: 384px;
+	width: 192px;
 }
 /* 内容区域 */
 .contenter {
 	margin-top:160px;
+	margin-bottom: 90px;
 	width:980px;  
+	overflow:hidden;
 }
 
 .content-left {
@@ -150,18 +159,23 @@ a, a:link, a:visited, a:hover, a:active {
 .content-right a {
     bottom: 0;
     display: block;
-    height: 90px;
-    width: 220px;
-    left: 10px;
+    height: 100px;
+    width: 240px;
+	margin-bottom: 2px;
+    left: 0;
 }
 .content-right a.heroes:hover {
     background-position: 0 0;
 }
 .content-right a.heroes {
-	text-align: center;
-	margin-top: 5px;
-	background-image: url("../images/heroesBtn.png");
-	background-position: 0px 80px;
-	height: 80px;
-    left: 10px;
+	background-image: url("../images/btn1.jpg");
+	/*background-position: 0px 80px;*/
+}
+.content-right a.game {
+	background-image: url("../images/btn2.jpg");
+	/*background-position: 0px 80px;*/
+}
+.content-right a.supports {
+	background-image: url("../images/btn3.jpg");
+	/*background-position: 0px 80px;*/
 }
