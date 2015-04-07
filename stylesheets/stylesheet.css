@@ -132,7 +132,7 @@ a, a:link, a:visited, a:hover, a:active {
     background-position: 0 0;
 }
 .content-left a.downloads {
-	background-image: url("../images/downloads.png");
+	background-image: url("../images/Downloads.png");
 	background-position: 0px 120px;
 	height: 120px;
     left: 10px;
@@ -168,6 +168,7 @@ a, a:link, a:visited, a:hover, a:active {
     background-position: 0 0;
 }
 .content-right a.heroes {
+<<<<<<< HEAD
 	background-image: url("../images/btn1.jpg");
 	/*background-position: 0px 80px;*/
 }
@@ -178,4 +179,12 @@ a, a:link, a:visited, a:hover, a:active {
 .content-right a.supports {
 	background-image: url("../images/btn3.jpg");
 	/*background-position: 0px 80px;*/
+=======
+	text-align: center;
+	margin-top: 5px;
+	background-image: url("../images/heroesBtn.png");
+	background-position: 0px 80px;
+	height: 80px;
+    left: 10px;
+>>>>>>> 0f50c30054eaf232bf299eaacda72ea5c0d1ad55
 }
